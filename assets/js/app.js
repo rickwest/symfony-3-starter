@@ -1,1 +1,5 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+// Bootstrap Javascript
+import 'bootstrap';
+
+// Styles
+import '../sass/app.scss';

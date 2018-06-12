@@ -26,8 +26,8 @@ Encore
 // create hashed filenames (e.g. app.abc123.css)
 // .enableVersioning()
 
-// allow sass/scss files to be processed
-// .enableSassLoader()
+    // allow sass/scss files to be processed
+    .enableSassLoader()
 ;
 
 // export the final configuration
