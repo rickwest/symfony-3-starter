@@ -1,0 +1,20 @@
+{% trans_default_domain 'FOSUserBundle' %}
+
+<div class="card">
+    <div class="card-header">
+        Profile
+    </div>
+    <div class="card-body">
+        <div class="fos_user_user_show">
+            {% form_theme form 'fos_user_form_layout.html.twig' %}
+            {{ form_start(form, { 'action': path('fos_user_profile_edit'), 'attr': { 'class': 'fos_user_profile_edit' } }) }}
+            {{ form_widget(form) }}
+            <div class="form-group row mb-0">
+                <div class="col-md-6 offset-md-4">
+                    <input type="submit" class="btn btn-primary" value="{{ 'profile.edit.submit'|trans }}" />
+                </div>
+            </div>
+            {{ form_end(form) }}
+        </div>
+    </div>
+</div>
