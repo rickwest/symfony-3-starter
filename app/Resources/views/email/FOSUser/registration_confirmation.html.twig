@@ -1,0 +1,25 @@
+{% trans_default_domain 'FOSUserBundle' %}
+
+{% extends 'email_layout.html.twig' %}
+
+{% block email_content %}
+<p>Hello {{ user.username }},</p>
+<p>To finish activating your account - please click the button below.</p>
+<table border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
+    <tbody>
+        <tr>
+            <td align="left">
+                <table border="0" cellpadding="0" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td><a href="{{ confirmationUrl }}" target="_blank">Activate</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>  This link can only be used once to validate your account.</p>
+<p> Regards, the {{ app_name }} Team.</p>
+{% endblock %}
