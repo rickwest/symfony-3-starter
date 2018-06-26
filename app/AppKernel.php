@@ -19,6 +19,7 @@ class AppKernel extends Kernel
 
             // Third party bundles
             new FOS\UserBundle\FOSUserBundle(),
+            new RickWest\MenuBuilderBundle\MenuBuilderBundle(),
 
             // My bundles
             new AppBundle\AppBundle(),

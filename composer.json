@@ -25,6 +25,7 @@
         "doctrine/orm": "^2.5",
         "friendsofsymfony/user-bundle": "^2.1",
         "incenteev/composer-parameter-handler": "^2.0",
+        "rickwest/symfony-menu-builder-bundle": "0.1.1",
         "sensio/distribution-bundle": "^5.0.19",
         "sensio/framework-extra-bundle": "^5.0.0",
         "symfony/monolog-bundle": "^3.1.0",
@@ -67,5 +68,11 @@
             "file": "app/config/parameters.yml"
         },
         "branch-alias": null
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/rickwest/symfony-menu-builder-bundle.git"
+        }
+    ]
 }
