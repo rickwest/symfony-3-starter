@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bbb1c3a81e8e96fbb4bb38cf5f355edb",
+    "content-hash": "6b10228d9f90c15a4e8afa0741d8fbad",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -1448,16 +1448,16 @@
         },
         {
             "name": "rickwest/symfony-menu-builder-bundle",
-            "version": "v0.1.1",
+            "version": "v0.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rickwest/symfony-menu-builder-bundle.git",
-                "reference": "3933798bbb7c923df6f9064d0bad480dc5ed1dd6"
+                "reference": "aa12d7a07c8e7ca94f082e0d2527261f5402fa40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rickwest/symfony-menu-builder-bundle/zipball/3933798bbb7c923df6f9064d0bad480dc5ed1dd6",
-                "reference": "3933798bbb7c923df6f9064d0bad480dc5ed1dd6",
+                "url": "https://api.github.com/repos/rickwest/symfony-menu-builder-bundle/zipball/aa12d7a07c8e7ca94f082e0d2527261f5402fa40",
+                "reference": "aa12d7a07c8e7ca94f082e0d2527261f5402fa40",
                 "shasum": ""
             },
             "require": {
@@ -1483,10 +1483,10 @@
             ],
             "description": "Adds menu builder support in Symfony 3",
             "support": {
-                "source": "https://github.com/rickwest/symfony-menu-builder-bundle/tree/v0.1.1",
+                "source": "https://github.com/rickwest/symfony-menu-builder-bundle/tree/v0.1.6",
                 "issues": "https://github.com/rickwest/symfony-menu-builder-bundle/issues"
             },
-            "time": "2018-06-26T22:56:54+00:00"
+            "time": "2018-06-30T23:14:40+00:00"
         },
         {
             "name": "sensio/distribution-bundle",
@@ -1542,23 +1542,23 @@
         },
         {
             "name": "sensio/framework-extra-bundle",
-            "version": "v5.1.6",
+            "version": "v5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioFrameworkExtraBundle.git",
-                "reference": "bf4940572e43af679aaa13be98f3446a1c237bd8"
+                "reference": "50e8b7292425957b8fd66887504430c89bcbd83c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/bf4940572e43af679aaa13be98f3446a1c237bd8",
-                "reference": "bf4940572e43af679aaa13be98f3446a1c237bd8",
+                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/50e8b7292425957b8fd66887504430c89bcbd83c",
+                "reference": "50e8b7292425957b8fd66887504430c89bcbd83c",
                 "shasum": ""
             },
             "require": {
                 "doctrine/common": "^2.2",
                 "symfony/config": "^3.3|^4.0",
                 "symfony/dependency-injection": "^3.3|^4.0",
-                "symfony/framework-bundle": "^3.3|^4.0",
+                "symfony/framework-bundle": "^3.4|^4.0",
                 "symfony/http-kernel": "^3.3|^4.0"
             },
             "require-dev": {
@@ -1568,6 +1568,8 @@
                 "symfony/dom-crawler": "^3.3|^4.0",
                 "symfony/expression-language": "^3.3|^4.0",
                 "symfony/finder": "^3.3|^4.0",
+                "symfony/monolog-bridge": "^3.0|^4.0",
+                "symfony/monolog-bundle": "^3.2",
                 "symfony/phpunit-bridge": "^3.3|^4.0",
                 "symfony/psr-http-message-bridge": "^0.3",
                 "symfony/security-bundle": "^3.3|^4.0",
@@ -1584,7 +1586,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.1.x-dev"
+                    "dev-master": "5.2.x-dev"
                 }
             },
             "autoload": {
@@ -1607,7 +1609,7 @@
                 "annotations",
                 "controllers"
             ],
-            "time": "2018-02-14T08:40:54+00:00"
+            "time": "2018-05-12T09:37:42+00:00"
         },
         {
             "name": "sensiolabs/security-checker",
