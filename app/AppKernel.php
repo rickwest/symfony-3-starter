@@ -20,6 +20,7 @@ class AppKernel extends Kernel
             // Third party bundles
             new FOS\UserBundle\FOSUserBundle(),
             new RickWest\MenuBuilderBundle\MenuBuilderBundle(),
+            new Vich\UploaderBundle\VichUploaderBundle(),
 
             // My bundles
             new AppBundle\AppBundle(),
