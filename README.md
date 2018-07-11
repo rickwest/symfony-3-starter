@@ -1,4 +1,4 @@
-symfony-starter
+Symfony Starter
 ===============
 
-A starter project based on Symfony 3.4 LTS 
+A sensible starting point for a new Symfony 3 project. Includes authentication, menu builder and uploader bundle.  
