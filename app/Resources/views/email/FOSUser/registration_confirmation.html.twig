@@ -9,7 +9,5 @@
     {{ macro.button(confirmationUrl, 'Activate') }}
     {{ macro.p('This link can only be used once to validate your account.') }}
     {{ macro.p('Regards, the ' ~ app_name ~ ' Team.') }}
-    <p style="font-family: sans-serif; font-size: 12px; font-weight: normal; margin: 0; Margin-bottom: 15px;">
-        If you’re having trouble clicking the "Activate" button, copy and paste the URL below into your web browser: <a href="{{ confirmationUrl }}" target="_blank">{{ confirmationUrl }}</a>
-    </p>
+    {{ macro.p('If you’re having trouble clicking the "Activate" button, copy and paste the URL below into your web browser: <a href="' ~ confirmationUrl ~ '" target="_blank">' ~ confirmationUrl ~ '</a>', {font_size: '12px'} ) }}
 {% endblock %}

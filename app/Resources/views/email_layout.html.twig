@@ -133,8 +133,8 @@
 </body>
 </html>
 
-{% macro p(text) %}
-<p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">{{ text|raw }}</p>
+{% macro p(text, styles) %}
+<p style="font-family: sans-serif; font-size: {{ styles.font_size|default('14px') }}; font-weight: {{ styles.font_weight|default('normal') }}; margin: {{ styles.margin|default(0) }}; margin-bottom: {{ styles.margin_bottom|default('15px') }}; text-align: {{ styles.text_align|default('left') }}">{{ text|raw }}</p>
 {% endmacro %}
 
 {% macro button(link, text, bgColor, textColor) %}
